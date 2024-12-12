@@ -22,6 +22,14 @@ used to simulate a rotor without connecting to a real serial port.
 Like rotctld, this program does not daemonize on its own.  It also produces
 copious debugging output to stdout.
 
+### Updated For Python3
+This script has been updated for Python3. Original functionality remains. 
+Additionally, the dummy rotor class for testing purposes has been 
+updated to have more "real time" movement feedback.
+
+Make sure to install pySerial:
+```pip install pyserial```
+
 ### Usage
 
  * ```--az-device <serial-port>```, the serial port to use for azimuth
